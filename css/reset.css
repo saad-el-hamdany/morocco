@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.whats{
+    color: aliceblue;
+    text-decoration: none;
+}.whats:hover{
+    color: #b84693;
+    text-decoration: none;
+}
+
+.viewall{
+    text-decoration: none;
+    color: cornsilk;
+}.viewall:hover{
+    text-decoration: none;
+    color: #b84693;
+
+}
+/* 
+GPS: <i class="fas fa-map-marked-alt"></i>
+VIEW: <i class="far fa-eye"></i>
+*/
+

@@ -1,0 +1,309 @@
+
+/* Star Header */
+header{
+    background: #272828;
+    width: 100%;
+    height: 50px;
+    color:#fff;
+}
+
+.container{
+    padding: 12px;
+}
+
+.contact-info{
+    font-size: 12px;
+}
+
+.contact-info span{
+    margin-left: 10px;
+}
+
+.social{
+    font-size: 16px;
+    text-align: right;
+}
+
+.social a{
+    color: #fff;
+    padding-left: 25px;
+}.social a i:hover{
+    color: #b84693;
+    font-size: 18px;
+    transition: 0.3s ease-in-out; 
+}
+/* End Header */
+
+/* Star Nav */
+.cont-nav{
+    padding: 0px;
+}
+
+.sticky-top{
+    padding-top: 0px;
+}
+
+.navbar-dark .navbar-nav .active > 
+.nav-link, .navbar-dark .navbar-nav 
+.nav-link.active, .navbar-dark .navbar-nav 
+.nav-link.show, .navbar-dark .navbar-nav .show > 
+.nav-link
+{color: #b84693;}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #fff;
+    margin-left: 5%;
+}.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #b84693;
+    border-bottom: 2px solid #b84693;
+    transition: 0.3s ease-in-out; 
+}
+
+.navbar-expand-lg .navbar-nav{
+    padding-top: 30px;
+}
+
+.carousel{
+    margin-top: -98px;
+}
+/* End Nav */
+
+/* Star Popular Destinations */
+.top-destination{
+    margin: 60px 0px 60px 0px;
+}
+
+.top-destination h2{
+    padding-bottom: 50px;
+}
+
+.card-group .card{
+    margin: 10px;
+}
+
+.top-destination .btn{
+    background: #282727;
+    color: #fff;
+}.top-destination .btn:hover{
+    background:  #fff;
+    color: #282727;
+    border: 1px solid #282727;
+}
+
+.vad{
+    padding-top: 20px;
+}
+
+.vad-link{
+    font-weight: bolder;
+    outline: none;
+}
+
+.vad i{
+    font-size:15px ;
+    padding-left: 10px;
+}
+/* End Popular Destinations */
+
+/* Star About Home */
+.about-home{
+    background: url(../imgs/hero-home-about.jpg) 50% 50% fixed;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+}
+
+.contetnt-about-home{
+    margin-top: 15px;
+}
+
+.about-home h2{
+    font-weight: bold;
+} 
+
+.about-home p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.about-home .btn{
+    background-color: #fff;
+    color: #272828;
+    padding: 5px 40px;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.us{
+    margin: 60px;
+}
+
+.card-body{
+    padding-top: 50px;
+}
+
+.h-us{
+    color: #b84693;
+    font-weight: bolder;
+}
+/* End About Home */
+
+
+/* Star Destination Home */
+.top-all-destination{
+    margin: 50px auto;
+}
+
+.top-all-destination h2 span{
+    border-bottom: solid #202121 4px;
+}
+
+.all-destination{
+    margin: 20 auto;
+}
+
+.all-destination .vat{
+    background: #282727;
+    color: #fff;
+}.all-destination .vat:hover{
+    background:  #fff;
+    color: #282727;
+    border: 1px solid #282727;
+}
+
+.tour-kech{
+    margin-top: 60px;
+}.tour-kech h2{
+    border-bottom: solid #202121 2px;
+    margin-bottom: 60px;
+}
+.btnsy{
+    text-align: center;
+}
+/* End Distinqtion Home */
+
+
+/* Star Contact Home */
+.contact-home{
+    background-color: #F5F5F5;
+    padding: 50px 0px;
+}
+
+.contact-infos p{
+    color: #8f9090;
+}
+
+.contact-home input,textarea{
+    border: none;
+    border-radius: 2px;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+.contact-home input{
+    height: 30px;
+    width: 400px;
+}
+
+.contact-home input[type=submit]{
+    background: #282727;
+    color: #fff;
+}
+/* End Contact Home */
+
+/* Star Footer */
+footer{
+    background: #282727;
+    color: #a7a9a9 ;
+    padding-top: 2%;
+}
+
+.footer{
+    width:70%;
+    margin: 0 auto;
+    
+}
+
+.footer-info-left h4{
+    color: #dedfdf;
+}
+
+.footer-info-left p{
+    width: 90%;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.footer-info-right{
+    padding-left: 10%;
+    font-size: 14px;
+}
+
+.footer-info-right li{
+    padding-bottom: 3%;
+}
+
+.footer-info-right h3{
+    color: #dedfdf;
+    margin-bottom: 10%;
+}
+
+.footer-info-right a{
+    color: #fff;
+    padding-right: 2em;
+    font-size: 18px;
+}.footer-info-right a:hover{
+    color: #b84693;
+    font-size: 1em;
+    transition: 0.3s ease-in-out; 
+}
+/* End Footer */
+
+/* Star Copyright */
+.copyright{
+    background: #202121;
+    width: 100%;
+    height: 30px;
+}
+
+.copyright p{
+    margin-bottom: 0px;
+}
+/* End Copyright */
+
+
+.about-hero{
+    width: 100%;
+    height: 500px;
+    background: url(/imgs/hero-about.jpg) center center;
+}
+
+.about-hero img{
+    margin-top: -98px;
+}
+
+
+
+/* Star My Gallery */
+.my-gallery{
+    margin: 10px 50px;
+}
+
+.my-gallery img{
+    transition: 1s;
+    padding: 15px;
+    width: 250px;
+}.my-gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale (2,2);
+}
+/* End My Gallery */
+
+/* Star Tours */
+    .tours{
+        margin-top: 60px;
+        max-width: 800px;
+    }
+/* End Tours */
